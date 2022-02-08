@@ -81,6 +81,7 @@ footer a{
     color: rgb(253, 116, 116);
 }
 
+
 @media  screen and (min-width: 320px) and (max-width: 768px) {
     #texto-lorem{
         display: none; 
@@ -91,6 +92,7 @@ footer a{
     }
 
     #lorem{
+        display: block;
         text-align: center;
         width: 100vw;   
     }
@@ -118,6 +120,8 @@ footer a{
        margin: 0.1em;
        
    }
+
+
 
    
    
