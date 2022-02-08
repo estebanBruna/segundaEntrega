@@ -83,14 +83,44 @@ footer a{
 
 @media  screen and (min-width: 320px) and (max-width: 768px) {
     #texto-lorem{
+        display: none; 
+    }
+
+    .titulo{
         display: none;
-        
     }
 
     #lorem{
         text-align: center;
-
+        width: 100vw;   
     }
+
+    .promociones{
+        text-align: center;
+    }
+
+    .descuento-none{
+       display: none;
+    }
+
+   #redes{
+       display: flex;
+       justify-content: space-around;
+       background-color: aqua;
+   }
+
+   #redes img{
+       width: 60px;
+       height: 60px;
+   }
+
+    #form{
+       margin: 0.1em;
+       
+   }
+
+   
+   
 
 }
 
