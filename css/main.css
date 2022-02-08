@@ -106,7 +106,7 @@ footer a{
    #redes{
        display: flex;
        justify-content: space-around;
-       background-color: aqua;
+       
    }
 
    #redes img{
