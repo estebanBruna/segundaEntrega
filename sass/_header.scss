@@ -1,0 +1,19 @@
+header{
+    .nav-color{
+        background-color: black;
+        .container-fluid{
+            .img-logo{
+                width: 150px;
+                height: 150px;
+            }
+            .titulo{
+                color: white;
+                font-family: 'Staatliches', cursive;
+                
+            }
+        }
+    }
+    #bienvenidos{
+        background-color: rgb(255, 159, 142);
+    }
+}

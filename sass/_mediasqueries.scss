@@ -1,0 +1,43 @@
+$medida-celular: 320px;
+$medida-tablet: 768px;
+
+
+@media  screen and (min-width: $medida-celular) and (max-width: $medida-tablet) {
+    #texto-lorem{
+        display: none; 
+    }
+
+    .titulo{
+        display: none;
+    }
+
+    #lorem{
+        display: block;
+        text-align: center;
+        width: 100vw;   
+    }
+
+    .promociones{
+        text-align: center;
+    }
+
+    .descuento-none{
+       display: none;
+    }
+
+   #redes{
+       display: flex;
+       justify-content: space-around;
+       
+   }
+
+   #redes img{
+       width: 60px;
+       height: 60px;
+   }
+
+    #form{
+       margin: 0.1em;
+       
+   }
+}

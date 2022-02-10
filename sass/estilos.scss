@@ -1,0 +1,48 @@
+
+// propiedades carpetas
+@import "header";
+@import "footer";
+@import "mediasqueries";
+
+// variables
+
+$color-de-fondo: #f5f5f5;
+$color-principal: rgb(253, 116, 116);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Staatliches', cursive;
+    background-color: $color-de-fondo;
+
+}
+
+/*porpiedades imagenes que se agrandan */
+
+.img-agrandar:hover {
+    animation-name: agrandarF;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function:step-start;
+}
+
+@keyframes agrandarF{
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+/* texto promociones en index "no te pierdas..." */
+
+.texto-promos a{
+    text-decoration: none;
+    color: rgb(253, 116, 116);
+}
+
